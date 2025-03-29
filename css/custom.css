@@ -1,0 +1,160 @@
+
+@media (max-width:1366px) {
+}
+
+
+/************ Main **************/
+
+@media (min-width: 768px) and (max-width: 1024px){
+	.container{ width:100%; }
+	header{position: relative; background: #3d2516; z-index: 11111}
+	header::before {content: none;}
+	header .top_sec .inner-block .info:last-child{display: none}
+	header .top_sec .inner-block .right ul.social{ border-left: none}
+	header .nav_sec .inner-header{padding: 10px 15px}
+	header .nav_sec ul.header-menu li{margin: 0px}
+	header .nav_sec ul.header-menu li a{font-size: 12px; padding: 5px 10px 8px 10px}
+	header .nav_sec .inner-header .logo-white{width: 120px}
+	header .nav_sec .inner-header .logo{width: 120px}
+
+	section .slider_sec{height: 50vh}
+	section .slider_sec .item{height: 50vh}
+	section .slider_sec .item .content-area{height:50vh}
+	section .slider_sec .item .content-area h2{font-size: 24px;width: 100%; line-height: 28px; }
+	section .slider_sec .item .content-area p{width: 100%}
+	section .slider_sec .owl-controls{display: none}
+
+	section .about_area{padding: 25px 0;}
+	section .about_area .d-flex{display: block !important; }
+	section .about_area .photo-block{width: 100%; padding: 0 0 25px 0}
+	section .about_area .about_details{width: 100%; padding: 0px}
+	section .about_area h2{font-size: 22px;}
+
+	.catalog_number_area .bg{padding: 25px 0 15px 0}
+	.catalog_number_area ul.counter_ul li {width: 48%; margin-bottom: 8px}
+	.catalog_number_area ul.counter_ul li .number{font-size: 34px; line-height: 34px}
+	.catalog_number_area ul.counter_ul li .icon{width: 50px; height: 50px; font-size: 20px; margin: 0 auto 5px auto}
+	.catalog_number_area ul.counter_ul li .icon i{line-height: 50px}
+	.catalog_number_area ul.counter_ul li h4{font-size: 11px; line-height: 12px}
+
+	.product_box .pro_content .pro_img .icon{bottom: 50%; margin-bottom: -20px; opacity: 1; background: #ff4a03; color: #fff;}
+
+	.cate_product{padding: 25px 0;}
+	.cate_product h2{font-size: 22px;}
+
+	.business_with_us{padding:30px 0}
+	.business_with_us ul.box li {width: calc(33.33% - 15px);}
+
+	section .why_area{padding:30px 0}
+	.product_box .pro_content .pro_img {width: 160px; height: 160px;}
+	footer .footer_bg h3{margin-top:30px}
+	footer .footer_bg .icon_box{text-align:center}
+	footer .footer_bg .icon_box img{float:none; margin:0 auto}
+	footer .footer_bg .icon_box .title{width:100%; margin:0 0 15px 0}
+
+	section .inner_page_top{padding:0px 0}
+	section .inner_page_top .bg{padding:50px 0}
+	.product_detail .pro_img{width:100%; margin-bottom:30px}
+
+}
+
+@media (max-width: 767px) {
+  html { -webkit-text-size-adjust:none;}
+.container{ width:90%; margin:0 auto; padding:0;}
+
+header{position: relative; background: #3d2516; z-index: 11111}
+header::before {content: none;}
+header .top_sec .inner-block{justify-content: center;}
+header .top_sec .inner-block .left{display: none}
+header .top_sec .inner-block .right ul.social{padding: 0px; border-left: none}
+header .header-menu{display: none !important}
+header .nav_sec .inner-header{padding: 10px 15px}
+.btn-menu{color: #fff; background: #3d2516; width: 40px; height: 40px; text-align: center; line-height: 40px; cursor: pointer; font-size: 20px; display: block;}
+.btn-menu i{line-height: 40px}
+header .header-menu {display: none !important; position: absolute; top: 74px; background: #3d2516; left: 0px; width: 100%; padding: 10px !important; text-align: center;}
+header .header-menu.active{display: block !important;}
+header.fixed .nav_sec ul.header-menu li a{color: #fff}
+header .nav_sec ul.header-menu li a{display: block;}
+section .slider_sec{height: 60vh}
+section .slider_sec .item{height: 60vh}
+section .slider_sec .item .content-area{height: 60vh}
+section .slider_sec .item .content-area h2{font-size: 24px;width: 100%; line-height: 28px; }
+section .slider_sec .item .content-area p{width: 100%}
+section .slider_sec .owl-controls{display: none}
+
+section .about_area{padding: 25px 0;}
+section .about_area .d-flex{display: block !important; }
+section .about_area .photo-block{width: 100%; padding: 0 0 25px 0}
+section .about_area .about_details{width: 100%; padding: 0px}
+section .about_area h2{font-size: 22px;}
+
+.catalog_number_area .bg{padding: 25px 0 15px 0}
+.catalog_number_area ul.counter_ul li {width: 48%; margin-bottom: 8px}
+.catalog_number_area ul.counter_ul li .number{font-size: 34px; line-height: 34px}
+.catalog_number_area ul.counter_ul li .icon{width: 50px; height: 50px; font-size: 20px; margin: 0 auto 5px auto}
+.catalog_number_area ul.counter_ul li .icon i{line-height: 50px}
+.catalog_number_area ul.counter_ul li h4{font-size: 11px; line-height: 12px}
+
+.product_box .pro_content .pro_img .icon{bottom: 50%; margin-bottom: -20px; opacity: 1; background: #ff4a03; color: #fff;}
+
+.cate_product{padding: 25px 0;}
+.cate_product h2{font-size: 22px;}
+
+.business_with_us{padding: 25px 0;}
+.business_with_us h2{font-size: 22px;}
+.business_with_us ul.box li {width: calc(50% - 5px); margin-bottom: 12px;}
+.business_with_us ul.box li .iconbox h4{font-size:14px}
+.business_with_us ul.box li .iconbox{padding:10px 0 20px 0}
+
+
+.four_box_area1 .main_box{border-bottom:#a4a4a4 1px dashed; border-right:none; margin-bottom: 30px; padding-bottom: 30px;}
+.four_box_area1 .border {border: none !important; padding-bottom: 0px !important; margin-bottom: 0px !important;}
+.four_box_area1 .main_box p{min-height:auto}
+
+footer .footer_bg .logo{width: 150px; margin: 0px}
+footer .footer_bg ul.social{text-align: left; margin-left: -10px; margin-top: 15px}
+footer .footer_bg h3{margin:20px 0 5px 0}
+footer .footer_bg .copyright p{line-height: 20px; padding: 10px 0}
+#toTop{right:10px}
+
+
+
+section .inner_page_top .bg{padding:40px 0}
+section .inner_page_top .title{font-size:20px}
+section .inner_page_top .breadcrumb > li a{font-size:15px}
+section .inner_page_top .breadcrumb > li.active{font-size:15px}
+section .inner_page_top .breadcrumb > li + li::before{font-size:15px}
+
+
+section .about_area .aboutphoto{margin-bottom:20px}
+section .about_area .about_details{margin:0px}
+section .why_area{padding: 25px 0;}
+section .why_area h2{font-size: 22px;}
+
+section .contact_form, section .contact_detail{padding:25px 0}
+section .contact_detail h2, section .contact_form h2{font-size:24px}
+section .contact_form .btn-submit{width:100%; margin-bottom:20px}
+
+.certification-area{padding: 30px 0 0 0}
+.list_page{padding: 30px 0 10px 0}
+.product-detail-block{position: relative; min-height: auto; padding: 0px; display: block;}
+.product-detail-block .product-photo{width: 100%; height: auto; position: relative;}
+
+section .about_page{padding: 30px 0}
+section .about_page .white-box{width: 90%; margin-left: 5%; margin-top: -30px; padding: 20px;}
+section .about_page .white-box h2{font-size: 22px;}
+
+.process-area{padding: 30px 0}
+ul.feature-list li{padding-left: 65px}
+ul.feature-list li::before {left: 30px; top: 15px;}
+ul.feature-list li::after {top: 12px; left: 62px;}
+ul.feature-list li .number{font-size: 18px; line-height: 28px; width: 30px; height: 30px;}
+ul.feature-list li .feature-box{padding: 15px}
+ul.feature-list li .feature-box .step-name{font-size: 18px; line-height: 20px;}
+ul.feature-list li .feature-box p {font-size: 12px; line-height: 18px;}
+ul.feature-list .border-center{left: 45px}
+}
+
+/************ iphone **************/
+@media (max-width: 500px) {
+}
